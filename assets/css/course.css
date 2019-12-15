@@ -1,0 +1,151 @@
+form {
+  padding: 20px 10px;
+}
+body {
+  font-family: arial;
+  margin: 0;
+}
+nav {
+  background: #ff5353;
+  padding: 20px 10px;
+}
+nav ul {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+nav a {
+  color: #fff;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+main,
+header {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0 10px;
+  color: #333;
+}
+.google-btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  background: #ff5353;
+}
+.box {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.box .linksArea {
+  margin: 0px 0px;
+  padding: 10px 10px;
+  background-color: #b6b4b9;
+  height: 525px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.box .linksArea button {
+  background-color: #ff5353;
+  color: white;
+  border: none;
+}
+
+.box .playlistArea {
+  background-color: #f8f9fa;
+  height: 475px;
+  overflow-y: scroll;
+}
+
+.box .playlistArea p {
+  font-size: 20px;
+  padding: 5px;
+  margin: 0px;
+  color: #ff5353;
+}
+
+.box .playlistArea button {
+  background-color: #ff5343;
+  color: white;
+  border: none;
+}
+
+.createButton button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* youtube playlist video container */
+
+.box .playlistArea .youtubeContainer {
+  border: solid #ff9d94 2px;
+  margin: 10px auto;
+  height: 0px;
+  visibility: hidden;
+}
+
+/* youtube playlist cloning stuff */
+
+.box .playlistArea .youtubeContainerClone {
+  border: solid #ff9d94 2px;
+  margin: 10px auto;
+}
+.box .playlistArea .imageContainer img {
+  width: 100%;
+}
+
+.box .playlistArea .textContainer p {
+  font-size: 14px;
+  line-height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.boxContainerClone {
+  visibility: hidden;
+  height: 0px;
+}
+
+.boxContainer .imageBox img {
+  margin-top: 8px;
+}
+.boxContainer .textBoxUpper label {
+  font-size: 14px;
+  color: #495057;
+  margin: 0px;
+}
+
+.boxContainer .textBoxUpper {
+  margin: 0px;
+}
+
+.boxContainer .textBoxUpper .col-md-12 {
+  margin-bottom: 8px;
+}
+
+.boxContainer .textBoxUpper input {
+  height: 30px;
+  background-color: black;
+  font-size: 14px;
+}
+
+.boxContainer .textBoxLower {
+  margin: 0px;
+  padding: 0px;
+}
+
+.boxContainer .textBoxLower button {
+  width: 100%;
+}
