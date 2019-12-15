@@ -1,0 +1,43 @@
+#CourseList li i {
+    float: right;
+}
+
+#CourseList li i:hover {
+    cursor: pointer;
+}
+
+#CourseList {
+    height: 360px;
+    background: #b6b4b9;
+    overflow-y: auto;
+    border-radius: 4px;
+}
+
+#CourseList h3 {
+    padding: 8px;
+}
+
+#createEditButtons {
+    height: 360px;
+}
+
+#createEditButtons button {
+    width: 70%;
+    margin: 8% 15%;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+#createEditButtons button a {
+    text-decoration: none;
+    color: white;
+}
+
+#createEditButtons p {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}
